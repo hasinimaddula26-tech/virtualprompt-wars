@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+storage/app_state.json
+storage/*.sqlite3
+*.log

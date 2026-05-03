@@ -1,0 +1,36 @@
+{
+  "regions": {
+    "england": {
+      "name": "England",
+      "timezone": "Europe/London",
+      "official_url": "https://www.electoralcommission.org.uk",
+      "registration_url": "https://www.gov.uk/register-to-vote",
+      "status_url": "https://www.gov.uk/contact-electoral-registration-office",
+      "registration": {
+        "methods": ["Online voter registration", "Local electoral registration office"],
+        "required_documents": ["National Insurance number if available", "Date of birth", "Current address"],
+        "processing_time": "Varies by local authority and election deadline",
+        "fallback": "Contact your local electoral registration office."
+      },
+      "eligibility": {
+        "residency_rule": "Eligibility depends on citizenship, residence, age, and election type."
+      },
+      "deadlines": [
+        {
+          "id": "gb-register",
+          "title": "Register to vote deadline check",
+          "date": "2026-04-15T23:59:00+01:00",
+          "category": "Registration",
+          "critical": true,
+          "description": "Check the registration deadline for the relevant UK election.",
+          "source": "Sample Electoral Commission configuration"
+        }
+      ],
+      "contacts": {
+        "official": "Local electoral registration office",
+        "hotline": "Use official local council contact details",
+        "rights_restoration": "Check eligibility by election type with official guidance."
+      }
+    }
+  }
+}

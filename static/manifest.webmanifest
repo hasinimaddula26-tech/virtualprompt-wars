@@ -1,0 +1,18 @@
+{
+  "name": "Election Process Assistant",
+  "short_name": "Election Guide",
+  "description": "Python-backed personalized election process guidance, deadlines, registration help, voter guides, and civic support.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfcf8",
+  "theme_color": "#12343b",
+  "icons": [
+    {
+      "src": "/static/assets/icon.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "regions": {
+    "ontario": {
+      "name": "Ontario",
+      "timezone": "America/Toronto",
+      "official_url": "https://www.elections.ca",
+      "registration_url": "https://ereg.elections.ca",
+      "status_url": "https://www.elections.ca",
+      "registration": {
+        "methods": ["Online voter registration check", "Registration at polling place where allowed", "Contact Elections Canada"],
+        "required_documents": ["Proof of identity", "Proof of address", "Canadian citizenship confirmation where required"],
+        "processing_time": "Varies by election period",
+        "fallback": "Use Elections Canada or the provincial election agency."
+      },
+      "eligibility": {
+        "residency_rule": "Eligibility depends on citizenship, age, residence, and election level."
+      },
+      "deadlines": [
+        {
+          "id": "ca-register",
+          "title": "Voter registration verification",
+          "date": "2026-09-01T17:00:00-04:00",
+          "category": "Registration",
+          "critical": false,
+          "description": "Verify registration before the relevant federal or provincial election.",
+          "source": "Sample Elections Canada configuration"
+        }
+      ],
+      "contacts": {
+        "official": "Elections Canada or provincial election agency",
+        "hotline": "Check official voter information service",
+        "rights_restoration": "Check official eligibility guidance."
+      }
+    }
+  }
+}
